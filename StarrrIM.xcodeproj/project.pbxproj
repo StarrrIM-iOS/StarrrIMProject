@@ -1,0 +1,733 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5555EB738A456F6233A6F6AC /* libPods-StarrrIMTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 15246E116B0D5B8A4415E66A /* libPods-StarrrIMTests.a */; };
+		725ACDFE5D05127E205E2AF8 /* libPods-StarrrIM-StarrrIMUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D74344820303D4128988233 /* libPods-StarrrIM-StarrrIMUITests.a */; };
+		C7034A242E20679C5876EBA8 /* libPods-StarrrIM.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FDEA4A1ED811BAE98020DAA9 /* libPods-StarrrIM.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DE097A162EC4DD0C000E74FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE0979F42EC4DD0A000E74FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE0979FB2EC4DD0A000E74FC;
+			remoteInfo = StarrrIM;
+		};
+		DE097A202EC4DD0C000E74FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE0979F42EC4DD0A000E74FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE0979FB2EC4DD0A000E74FC;
+			remoteInfo = StarrrIM;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		15246E116B0D5B8A4415E66A /* libPods-StarrrIMTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-StarrrIMTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E97FDAF66DCB01EF8670179 /* Pods-StarrrIMTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarrrIMTests.release.xcconfig"; path = "Target Support Files/Pods-StarrrIMTests/Pods-StarrrIMTests.release.xcconfig"; sourceTree = "<group>"; };
+		33EBCBA83B899E8CA849E679 /* Pods-StarrrIM-StarrrIMUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarrrIM-StarrrIMUITests.release.xcconfig"; path = "Target Support Files/Pods-StarrrIM-StarrrIMUITests/Pods-StarrrIM-StarrrIMUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3D74344820303D4128988233 /* libPods-StarrrIM-StarrrIMUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-StarrrIM-StarrrIMUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8922CAE3A42D2E2397987324 /* Pods-StarrrIMTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarrrIMTests.debug.xcconfig"; path = "Target Support Files/Pods-StarrrIMTests/Pods-StarrrIMTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DE0979FC2EC4DD0A000E74FC /* StarrrIM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarrrIM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE097A152EC4DD0C000E74FC /* StarrrIMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarrrIMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE097A1F2EC4DD0C000E74FC /* StarrrIMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarrrIMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF21A3D21933CBFA89BC16A0 /* Pods-StarrrIM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarrrIM.release.xcconfig"; path = "Target Support Files/Pods-StarrrIM/Pods-StarrrIM.release.xcconfig"; sourceTree = "<group>"; };
+		E19440D6AEA217B9B0ED1C67 /* Pods-StarrrIM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarrrIM.debug.xcconfig"; path = "Target Support Files/Pods-StarrrIM/Pods-StarrrIM.debug.xcconfig"; sourceTree = "<group>"; };
+		F2449AEE9BE44AA52243A1F5 /* Pods-StarrrIM-StarrrIMUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarrrIM-StarrrIMUITests.debug.xcconfig"; path = "Target Support Files/Pods-StarrrIM-StarrrIMUITests/Pods-StarrrIM-StarrrIMUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FDEA4A1ED811BAE98020DAA9 /* libPods-StarrrIM.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-StarrrIM.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		DE097A272EC4DD0C000E74FC /* Exceptions for "StarrrIM" folder in "StarrrIM" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = DE0979FB2EC4DD0A000E74FC /* StarrrIM */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		DE0979FE2EC4DD0A000E74FC /* StarrrIM */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				DE097A272EC4DD0C000E74FC /* Exceptions for "StarrrIM" folder in "StarrrIM" target */,
+			);
+			path = StarrrIM;
+			sourceTree = "<group>";
+		};
+		DE097A182EC4DD0C000E74FC /* StarrrIMTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
+			path = StarrrIMTests;
+			sourceTree = "<group>";
+		};
+		DE097A222EC4DD0C000E74FC /* StarrrIMUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
+			path = StarrrIMUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE0979F92EC4DD0A000E74FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7034A242E20679C5876EBA8 /* libPods-StarrrIM.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE097A122EC4DD0C000E74FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5555EB738A456F6233A6F6AC /* libPods-StarrrIMTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE097A1C2EC4DD0C000E74FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				725ACDFE5D05127E205E2AF8 /* libPods-StarrrIM-StarrrIMUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		400CFA8490E8949996B69C17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FDEA4A1ED811BAE98020DAA9 /* libPods-StarrrIM.a */,
+				3D74344820303D4128988233 /* libPods-StarrrIM-StarrrIMUITests.a */,
+				15246E116B0D5B8A4415E66A /* libPods-StarrrIMTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4BC0C22B7D99DBD5441052CA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E19440D6AEA217B9B0ED1C67 /* Pods-StarrrIM.debug.xcconfig */,
+				DF21A3D21933CBFA89BC16A0 /* Pods-StarrrIM.release.xcconfig */,
+				F2449AEE9BE44AA52243A1F5 /* Pods-StarrrIM-StarrrIMUITests.debug.xcconfig */,
+				33EBCBA83B899E8CA849E679 /* Pods-StarrrIM-StarrrIMUITests.release.xcconfig */,
+				8922CAE3A42D2E2397987324 /* Pods-StarrrIMTests.debug.xcconfig */,
+				1E97FDAF66DCB01EF8670179 /* Pods-StarrrIMTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DE0979F32EC4DD0A000E74FC = {
+			isa = PBXGroup;
+			children = (
+				DE0979FE2EC4DD0A000E74FC /* StarrrIM */,
+				DE097A182EC4DD0C000E74FC /* StarrrIMTests */,
+				DE097A222EC4DD0C000E74FC /* StarrrIMUITests */,
+				DE0979FD2EC4DD0A000E74FC /* Products */,
+				4BC0C22B7D99DBD5441052CA /* Pods */,
+				400CFA8490E8949996B69C17 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DE0979FD2EC4DD0A000E74FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE0979FC2EC4DD0A000E74FC /* StarrrIM.app */,
+				DE097A152EC4DD0C000E74FC /* StarrrIMTests.xctest */,
+				DE097A1F2EC4DD0C000E74FC /* StarrrIMUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE0979FB2EC4DD0A000E74FC /* StarrrIM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE097A282EC4DD0C000E74FC /* Build configuration list for PBXNativeTarget "StarrrIM" */;
+			buildPhases = (
+				4DDAE95EC436D344B11372C9 /* [CP] Check Pods Manifest.lock */,
+				DE0979F82EC4DD0A000E74FC /* Sources */,
+				DE0979F92EC4DD0A000E74FC /* Frameworks */,
+				DE0979FA2EC4DD0A000E74FC /* Resources */,
+				9212562A8A0F453BAB19E7D2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				DE0979FE2EC4DD0A000E74FC /* StarrrIM */,
+			);
+			name = StarrrIM;
+			productName = StarrrIM;
+			productReference = DE0979FC2EC4DD0A000E74FC /* StarrrIM.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DE097A142EC4DD0C000E74FC /* StarrrIMTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE097A2D2EC4DD0C000E74FC /* Build configuration list for PBXNativeTarget "StarrrIMTests" */;
+			buildPhases = (
+				3E453059393A522362BCA9D6 /* [CP] Check Pods Manifest.lock */,
+				DE097A112EC4DD0C000E74FC /* Sources */,
+				DE097A122EC4DD0C000E74FC /* Frameworks */,
+				DE097A132EC4DD0C000E74FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE097A172EC4DD0C000E74FC /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				DE097A182EC4DD0C000E74FC /* StarrrIMTests */,
+			);
+			name = StarrrIMTests;
+			productName = StarrrIMTests;
+			productReference = DE097A152EC4DD0C000E74FC /* StarrrIMTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DE097A1E2EC4DD0C000E74FC /* StarrrIMUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE097A302EC4DD0C000E74FC /* Build configuration list for PBXNativeTarget "StarrrIMUITests" */;
+			buildPhases = (
+				72DE8276D41535D3D57EC828 /* [CP] Check Pods Manifest.lock */,
+				DE097A1B2EC4DD0C000E74FC /* Sources */,
+				DE097A1C2EC4DD0C000E74FC /* Frameworks */,
+				DE097A1D2EC4DD0C000E74FC /* Resources */,
+				04B092847034BC1E234F5BF0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE097A212EC4DD0C000E74FC /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				DE097A222EC4DD0C000E74FC /* StarrrIMUITests */,
+			);
+			name = StarrrIMUITests;
+			productName = StarrrIMUITests;
+			productReference = DE097A1F2EC4DD0C000E74FC /* StarrrIMUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE0979F42EC4DD0A000E74FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					DE0979FB2EC4DD0A000E74FC = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					DE097A142EC4DD0C000E74FC = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = DE0979FB2EC4DD0A000E74FC;
+					};
+					DE097A1E2EC4DD0C000E74FC = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = DE0979FB2EC4DD0A000E74FC;
+					};
+				};
+			};
+			buildConfigurationList = DE0979F72EC4DD0A000E74FC /* Build configuration list for PBXProject "StarrrIM" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE0979F32EC4DD0A000E74FC;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = DE0979FD2EC4DD0A000E74FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE0979FB2EC4DD0A000E74FC /* StarrrIM */,
+				DE097A142EC4DD0C000E74FC /* StarrrIMTests */,
+				DE097A1E2EC4DD0C000E74FC /* StarrrIMUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE0979FA2EC4DD0A000E74FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE097A132EC4DD0C000E74FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE097A1D2EC4DD0C000E74FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		04B092847034BC1E234F5BF0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StarrrIM-StarrrIMUITests/Pods-StarrrIM-StarrrIMUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StarrrIM-StarrrIMUITests/Pods-StarrrIM-StarrrIMUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-StarrrIM-StarrrIMUITests/Pods-StarrrIM-StarrrIMUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3E453059393A522362BCA9D6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StarrrIMTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4DDAE95EC436D344B11372C9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StarrrIM-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		72DE8276D41535D3D57EC828 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StarrrIM-StarrrIMUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9212562A8A0F453BAB19E7D2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StarrrIM/Pods-StarrrIM-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StarrrIM/Pods-StarrrIM-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-StarrrIM/Pods-StarrrIM-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE0979F82EC4DD0A000E74FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE097A112EC4DD0C000E74FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE097A1B2EC4DD0C000E74FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DE097A172EC4DD0C000E74FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE0979FB2EC4DD0A000E74FC /* StarrrIM */;
+			targetProxy = DE097A162EC4DD0C000E74FC /* PBXContainerItemProxy */;
+		};
+		DE097A212EC4DD0C000E74FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE0979FB2EC4DD0A000E74FC /* StarrrIM */;
+			targetProxy = DE097A202EC4DD0C000E74FC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DE097A292EC4DD0C000E74FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E19440D6AEA217B9B0ED1C67 /* Pods-StarrrIM.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KJ4YRZLP62;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = StarrrIM/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wmy.StarrrIM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DE097A2A2EC4DD0C000E74FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF21A3D21933CBFA89BC16A0 /* Pods-StarrrIM.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KJ4YRZLP62;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = StarrrIM/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wmy.StarrrIM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DE097A2B2EC4DD0C000E74FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = KJ4YRZLP62;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DE097A2C2EC4DD0C000E74FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = KJ4YRZLP62;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE097A2E2EC4DD0C000E74FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8922CAE3A42D2E2397987324 /* Pods-StarrrIMTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KJ4YRZLP62;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wmy.StarrrIMTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StarrrIM.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/StarrrIM";
+			};
+			name = Debug;
+		};
+		DE097A2F2EC4DD0C000E74FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E97FDAF66DCB01EF8670179 /* Pods-StarrrIMTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KJ4YRZLP62;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wmy.StarrrIMTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StarrrIM.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/StarrrIM";
+			};
+			name = Release;
+		};
+		DE097A312EC4DD0C000E74FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2449AEE9BE44AA52243A1F5 /* Pods-StarrrIM-StarrrIMUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KJ4YRZLP62;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wmy.StarrrIMUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StarrrIM;
+			};
+			name = Debug;
+		};
+		DE097A322EC4DD0C000E74FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33EBCBA83B899E8CA849E679 /* Pods-StarrrIM-StarrrIMUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KJ4YRZLP62;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wmy.StarrrIMUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StarrrIM;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE0979F72EC4DD0A000E74FC /* Build configuration list for PBXProject "StarrrIM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE097A2B2EC4DD0C000E74FC /* Debug */,
+				DE097A2C2EC4DD0C000E74FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE097A282EC4DD0C000E74FC /* Build configuration list for PBXNativeTarget "StarrrIM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE097A292EC4DD0C000E74FC /* Debug */,
+				DE097A2A2EC4DD0C000E74FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE097A2D2EC4DD0C000E74FC /* Build configuration list for PBXNativeTarget "StarrrIMTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE097A2E2EC4DD0C000E74FC /* Debug */,
+				DE097A2F2EC4DD0C000E74FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE097A302EC4DD0C000E74FC /* Build configuration list for PBXNativeTarget "StarrrIMUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE097A312EC4DD0C000E74FC /* Debug */,
+				DE097A322EC4DD0C000E74FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE0979F42EC4DD0A000E74FC /* Project object */;
+}

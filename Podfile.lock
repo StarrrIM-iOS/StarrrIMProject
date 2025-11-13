@@ -1,0 +1,27 @@
+PODS:
+  - Alamofire (5.10.2)
+  - SnapKit (5.7.1)
+  - SRNetworkKit (0.1.0):
+    - Alamofire
+
+DEPENDENCIES:
+  - SnapKit
+  - SRNetworkKit (from `../SRNetworkKit`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - SnapKit
+
+EXTERNAL SOURCES:
+  SRNetworkKit:
+    :path: "../SRNetworkKit"
+
+SPEC CHECKSUMS:
+  Alamofire: 7193b3b92c74a07f85569e1a6c4f4237291e7496
+  SnapKit: d612e99e678a2d3b95bf60b0705ed0a35c03484a
+  SRNetworkKit: 11172d938e255f0c88724ccdbc2b5f0a4a525004
+
+PODFILE CHECKSUM: 2b8c69ef66aa91e532bcceb069014ef4013b8c4f
+
+COCOAPODS: 1.16.2
