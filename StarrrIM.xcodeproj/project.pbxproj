@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5555EB738A456F6233A6F6AC /* libPods-StarrrIMTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 15246E116B0D5B8A4415E66A /* libPods-StarrrIMTests.a */; };
 		725ACDFE5D05127E205E2AF8 /* libPods-StarrrIM-StarrrIMUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D74344820303D4128988233 /* libPods-StarrrIM-StarrrIMUITests.a */; };
+		72C9AEBF2E5E49D9DCB36310 /* libPods-StarrrIM-StarrrIMTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6462C0CA057C991D4FF74CC0 /* libPods-StarrrIM-StarrrIMTests.a */; };
 		C7034A242E20679C5876EBA8 /* libPods-StarrrIM.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FDEA4A1ED811BAE98020DAA9 /* libPods-StarrrIM.a */; };
 /* End PBXBuildFile section */
 
@@ -30,11 +30,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		15246E116B0D5B8A4415E66A /* libPods-StarrrIMTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-StarrrIMTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E97FDAF66DCB01EF8670179 /* Pods-StarrrIMTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarrrIMTests.release.xcconfig"; path = "Target Support Files/Pods-StarrrIMTests/Pods-StarrrIMTests.release.xcconfig"; sourceTree = "<group>"; };
 		33EBCBA83B899E8CA849E679 /* Pods-StarrrIM-StarrrIMUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarrrIM-StarrrIMUITests.release.xcconfig"; path = "Target Support Files/Pods-StarrrIM-StarrrIMUITests/Pods-StarrrIM-StarrrIMUITests.release.xcconfig"; sourceTree = "<group>"; };
 		3D74344820303D4128988233 /* libPods-StarrrIM-StarrrIMUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-StarrrIM-StarrrIMUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6462C0CA057C991D4FF74CC0 /* libPods-StarrrIM-StarrrIMTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-StarrrIM-StarrrIMTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8922CAE3A42D2E2397987324 /* Pods-StarrrIMTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarrrIMTests.debug.xcconfig"; path = "Target Support Files/Pods-StarrrIMTests/Pods-StarrrIMTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C727ECFB97E2201FE6E4AD79 /* Pods-StarrrIM-StarrrIMTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarrrIM-StarrrIMTests.release.xcconfig"; path = "Target Support Files/Pods-StarrrIM-StarrrIMTests/Pods-StarrrIM-StarrrIMTests.release.xcconfig"; sourceTree = "<group>"; };
+		D2C16516449B0BA51C678C2F /* Pods-StarrrIM-StarrrIMTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarrrIM-StarrrIMTests.debug.xcconfig"; path = "Target Support Files/Pods-StarrrIM-StarrrIMTests/Pods-StarrrIM-StarrrIMTests.debug.xcconfig"; sourceTree = "<group>"; };
 		DE0979FC2EC4DD0A000E74FC /* StarrrIM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarrrIM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE097A152EC4DD0C000E74FC /* StarrrIMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarrrIMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE097A1F2EC4DD0C000E74FC /* StarrrIMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarrrIMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -92,7 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5555EB738A456F6233A6F6AC /* libPods-StarrrIMTests.a in Frameworks */,
+				72C9AEBF2E5E49D9DCB36310 /* libPods-StarrrIM-StarrrIMTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,7 +114,7 @@
 			children = (
 				FDEA4A1ED811BAE98020DAA9 /* libPods-StarrrIM.a */,
 				3D74344820303D4128988233 /* libPods-StarrrIM-StarrrIMUITests.a */,
-				15246E116B0D5B8A4415E66A /* libPods-StarrrIMTests.a */,
+				6462C0CA057C991D4FF74CC0 /* libPods-StarrrIM-StarrrIMTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -126,6 +128,8 @@
 				33EBCBA83B899E8CA849E679 /* Pods-StarrrIM-StarrrIMUITests.release.xcconfig */,
 				8922CAE3A42D2E2397987324 /* Pods-StarrrIMTests.debug.xcconfig */,
 				1E97FDAF66DCB01EF8670179 /* Pods-StarrrIMTests.release.xcconfig */,
+				D2C16516449B0BA51C678C2F /* Pods-StarrrIM-StarrrIMTests.debug.xcconfig */,
+				C727ECFB97E2201FE6E4AD79 /* Pods-StarrrIM-StarrrIMTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -185,6 +189,7 @@
 				DE097A112EC4DD0C000E74FC /* Sources */,
 				DE097A122EC4DD0C000E74FC /* Frameworks */,
 				DE097A132EC4DD0C000E74FC /* Resources */,
+				1E0F3EDEF90FDE9F834171CD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -308,6 +313,23 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-StarrrIM-StarrrIMUITests/Pods-StarrrIM-StarrrIMUITests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		1E0F3EDEF90FDE9F834171CD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StarrrIM-StarrrIMTests/Pods-StarrrIM-StarrrIMTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StarrrIM-StarrrIMTests/Pods-StarrrIM-StarrrIMTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-StarrrIM-StarrrIMTests/Pods-StarrrIM-StarrrIMTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		3E453059393A522362BCA9D6 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -323,7 +345,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-StarrrIMTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-StarrrIM-StarrrIMTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -614,7 +636,7 @@
 		};
 		DE097A2E2EC4DD0C000E74FC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8922CAE3A42D2E2397987324 /* Pods-StarrrIMTests.debug.xcconfig */;
+			baseConfigurationReference = D2C16516449B0BA51C678C2F /* Pods-StarrrIM-StarrrIMTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -634,7 +656,7 @@
 		};
 		DE097A2F2EC4DD0C000E74FC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1E97FDAF66DCB01EF8670179 /* Pods-StarrrIMTests.release.xcconfig */;
+			baseConfigurationReference = C727ECFB97E2201FE6E4AD79 /* Pods-StarrrIM-StarrrIMTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;

@@ -2,11 +2,13 @@
 //  AppDelegate.swift
 //  StarrrIM
 //
-//  Created by 温明妍 on 2025/11/12.
+//  Created by Apple on 2025/11/12.
 //
 
 import UIKit
 import CoreData
+import SRLogKit
+import SRNetworkKit
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -14,7 +16,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        
+        SRLogKit.setup()
+        SRChatManager.shared.setup()
         return true
     }
 

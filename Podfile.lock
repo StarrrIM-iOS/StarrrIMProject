@@ -1,27 +1,56 @@
 PODS:
   - Alamofire (5.10.2)
+  - HandyJSON (5.0.2)
   - SnapKit (5.7.1)
+  - SRLogKit (0.1.0):
+    - SwiftyBeaver
   - SRNetworkKit (0.1.0):
     - Alamofire
+    - SRLogKit
+    - SRUtil
+  - SRNetworkKit/Tests (0.1.0):
+    - Alamofire
+    - SRLogKit
+    - SRUtil
+  - SRUtil (0.1.0):
+    - HandyJSON
+    - SwiftyJSON
+  - SwiftyBeaver (2.1.1)
+  - SwiftyJSON (5.0.2)
 
 DEPENDENCIES:
   - SnapKit
+  - SRLogKit (from `../SRBaseSDK/SRLogKit`)
   - SRNetworkKit (from `../SRNetworkKit`)
+  - SRNetworkKit/Tests (from `../SRNetworkKit`)
+  - SRUtil (from `../SRBaseSDK/SRUtil`)
 
 SPEC REPOS:
   trunk:
     - Alamofire
+    - HandyJSON
     - SnapKit
+    - SwiftyBeaver
+    - SwiftyJSON
 
 EXTERNAL SOURCES:
+  SRLogKit:
+    :path: "../SRBaseSDK/SRLogKit"
   SRNetworkKit:
     :path: "../SRNetworkKit"
+  SRUtil:
+    :path: "../SRBaseSDK/SRUtil"
 
 SPEC CHECKSUMS:
   Alamofire: 7193b3b92c74a07f85569e1a6c4f4237291e7496
+  HandyJSON: 9e4e236f5d2dbefad5155a77417bbea438201c03
   SnapKit: d612e99e678a2d3b95bf60b0705ed0a35c03484a
-  SRNetworkKit: 11172d938e255f0c88724ccdbc2b5f0a4a525004
+  SRLogKit: 162260dbf17ef6974fa8e4b51565fc4ce69cf819
+  SRNetworkKit: ca1bb6e5ae37a6866d9d295c3ab5d32e22d9e3eb
+  SRUtil: 4e3e44f385424bc6e2f510712b98c33fff9bba8b
+  SwiftyBeaver: ade157e4f857812e7d7f15f2e3396bb8733f8a1c
+  SwiftyJSON: f5b1bf1cd8dd53cd25887ac0eabcfd92301c6a5a
 
-PODFILE CHECKSUM: 2b8c69ef66aa91e532bcceb069014ef4013b8c4f
+PODFILE CHECKSUM: 7e8cc0717d8061022ae3a230ae5cdc603294074f
 
 COCOAPODS: 1.16.2

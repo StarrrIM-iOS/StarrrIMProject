@@ -2,7 +2,7 @@
 //  StarrrIMUITests.swift
 //  StarrrIMUITests
 //
-//  Created by 温明妍 on 2025/11/12.
+//  Created by Apple on 2025/11/12.
 //
 
 import XCTest
